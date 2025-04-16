@@ -1,0 +1,10 @@
+abstract class Test  
+{
+	public abstract void m1();
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Test t=new Test();
+		t.m1();
+	}
+}
